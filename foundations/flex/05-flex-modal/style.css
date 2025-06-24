@@ -27,7 +27,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width: 150px;
   height: 42px;
   border-radius: 50%;
   display: flex;
@@ -66,4 +66,20 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+.modal{
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: larger;
+  margin-bottom: 5px;
+}
+.cancel-continue{
+  margin-top: 10px;
 }

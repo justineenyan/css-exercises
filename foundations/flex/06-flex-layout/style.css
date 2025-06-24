@@ -23,4 +23,42 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  
+
+}
+
+/* solution */
+body{
+  display: flex;
+  flex-direction: column;
+}
+.header, .footer{ 
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  
+}
+button{
+  padding: 8px 16px;
+}
+ ul{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a:link{
+  text-decoration: none;
+  color: #000;
+}
+
+.content{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
 }
